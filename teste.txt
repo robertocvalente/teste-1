@@ -1,0 +1,30 @@
+																		
+Cenario 
+Quando:usuario  acessa a url do site de compra 
+Dado usuario acesse a url do site de compra 
+E não esteja catrastrado 
+Quando clica no botão entre ou cadastre  
+Então é exibido o formulario para preenchimento de dados
+
+Cenario:
+Quando: usuario logado no site 
+Dado:  usuario cadastrado 
+E: clica no campo de pesquisa  
+Entao: faz um busca de um produto 
+E: exibibido uma tela com as opcoes de produtos 
+
+Cenario:
+Quando: usuario escolhe o produto 
+Então: carrega a pagina do prooduto desejado
+E: clica no botão comprar
+E: exibido  tela escolher a forma de pagamento 
+
+Quando: produto  vai para o carrinho de compra 
+E: produto e carregado no meu carrinho 
+Então : Aparece os campos concluir compra 
+E: clicado em comcluir compra 
+E: aparece na tela dados para confirma  endereco e pagamento 
+
+
+
+
